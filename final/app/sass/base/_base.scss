@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  body {
+    height: 100%;
+    position: relative;
+    font-family: $open-sans;
+    background-image: url("../../img/footprints-485749_1920.jpg");
+    background-size: cover;
+  }
+}

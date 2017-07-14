@@ -1,0 +1,39 @@
+.carousel {
+  .owl-carousel {
+    float: none;
+    max-width: 750px;
+    margin: 35px auto;
+    padding: 0 130px;
+    width: 100%;
+    position: relative;
+    .owl-nav {
+      .owl-prev {
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 100px;
+        height: 47px;
+        font-size: 0;
+        background-image: url('../../img/arrow_p.png');
+      }
+      .owl-next {
+        position: absolute;
+        top: 55px;
+        right: 0;
+        width: 100px;
+        height: 47px;
+        font-size: 0;
+        background-image: url('../../img/arrow_n.png');
+      }
+    }
+    .owl-item {
+      img {
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border: 0px solid #000000;
+      }
+
+    }
+  }
+}
